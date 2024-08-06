@@ -1,0 +1,274 @@
+{
+  "alias": {
+    "rd_regulatory_authorisation": {
+      "tables": {
+
+        "PRODUCT_AUTHORISATION": {
+          "fields": {
+            "source_id": {
+              "fieldtype": "String",
+              "columnname": "SOURCE_ID",
+              "columntype": "String"
+            },
+            "object_id": {
+              "fieldtype": "String",
+              "columnname": "R_OBJECT_ID",
+              "columntype": "String"
+            },
+            "root_version_id": {
+              "fieldtype": "String",
+              "columnname": "ROOT_VERSION_ID",
+              "columntype": "String"
+            },
+            "doc.anticipated_end_date": {
+              "fieldtype": "Date",
+              "columnname": "ANTICIPATED_END_DATE",
+              "columntype": "Date"
+            },
+            "doc.authorisation_holder_uid.en": {
+              "fieldtype": "String",
+              "columnname": "AUTHORISATION_HOLDER_NAME",
+              "columntype": "String"
+            },
+            "doc.authorisation_holder_uid.key": {
+              "fieldtype": "String",
+              "columnname": "AUTHORISATION_HOLDER_UID",
+              "columntype": "String"
+            },
+            "doc.authorisation_status.en": {
+              "fieldtype": "String",
+              "columnname": "AUTHORISATION_STATUS",
+              "columntype": "String"
+            },
+            "doc.authorisation_status_date": {
+              "fieldtype": "Date",
+              "columnname": "AUTHORISATION_STATUS_DATE",
+              "columntype": "Date"
+            },
+            "doc.authorisation_type.en": {
+              "fieldtype": "String",
+              "columnname": "AUTHORISATION_TYPE",
+              "columntype": "String"
+            },
+            "doc.data_exclusivity_end": {
+              "fieldtype": "Date",
+              "columnname": "DATA_EXCLUSIVITY_END",
+              "columntype": "Date"
+            },
+            "doc.data_exclusivity_start": {
+              "fieldtype": "Date",
+              "columnname": "DATA_EXCLUSIVITY_START",
+              "columntype": "Date"
+            },
+            "doc.date_of_first_authorisation": {
+              "fieldtype": "Date",
+              "columnname": "DATE_OF_FIRST_AUTHORISATION",
+              "columntype": "Date"
+            },
+            "doc.investigation_code": {
+              "fieldtype": "String",
+              "columnname": "INVESTIGATION_CODE",
+              "columntype": "String"
+            },
+            "doc.market_uid.en": {
+              "fieldtype": "String",
+              "columnname": "MARKET_NAME",
+              "columntype": "String"
+            },
+            "doc.market_start_date": {
+              "fieldtype": "Date",
+              "columnname": "MARKET_START_DATE",
+              "columntype": "Date"
+            },
+            "doc.market_stop_date": {
+              "fieldtype": "Date",
+              "columnname": "MARKET_STOP_DATE",
+              "columntype": "Date"
+            },
+            "doc.market_uid.key": {
+              "fieldtype": "String",
+              "columnname": "MARKET_UID",
+              "columntype": "String"
+            },
+            "doc.marketing_status": {
+              "fieldtype": "String",
+              "columnname": "MARKETING_STATUS",
+              "columntype": "String"
+            },
+            "doc.procedure_end_date": {
+              "fieldtype": "Date",
+              "columnname": "PROCEDURE_END_DATE",
+              "columntype": "Date"
+            },
+            "doc.orphan_designations.orphan_procedure_number": {
+              "fieldtype": "String",
+              "columnname": "PROCEDURE_NUMBER",
+              "columntype": "String"
+            },
+            "doc.procedure_start_date": {
+              "fieldtype": "Date",
+              "columnname": "PROCEDURE_START_DATE",
+              "columntype": "Date"
+            },
+            "doc.product_family_uid.en": {
+              "fieldtype": "String",
+              "columnname": "PRODUCT_FAMILY_NAME",
+              "columntype": "String"
+            },
+            "doc.product_family_uid.key": {
+              "fieldtype": "String",
+              "columnname": "PRODUCT_FAMILY_UID",
+              "columntype": "String"
+            },
+            "doc.regulatory_application_id.object_name": {
+              "fieldtype": "String",
+              "columnname": "REGULATORY_APPLICATION_NAME",
+              "columntype": "String"
+            },
+            "doc.regulatory_application_id.id": {
+              "fieldtype": "String",
+              "columnname": "REGULATORY_APPLICATION_UID",
+              "columntype": "String"
+            },
+            "doc.requested_end_date": {
+              "fieldtype": "Date",
+              "columnname": "REQUESTED_END_DATE",
+              "columntype": "Date"
+            },
+            "doc.sponsor_uid.en": {
+              "fieldtype": "String",
+              "columnname": "SPONSOR_NAME",
+              "columntype": "String"
+            },
+            "doc.sponsor_product_code": {
+              "fieldtype": "String",
+              "columnname": "SPONSOR_PRODUCT_CODE",
+              "columntype": "String"
+            },
+            "doc.sponsor_uid.key": {
+              "fieldtype": "String",
+              "columnname": "SPONSOR_UID",
+              "columntype": "String"
+            },
+            "doc.validity_period_end": {
+              "fieldtype": "Date",
+              "columnname": "VALIDITY_PERIOD_END",
+              "columntype": "Date"
+            },
+            "doc.validity_period_start": {
+              "fieldtype": "Date",
+              "columnname": "VALIDITY_PERIOD_START",
+              "columntype": "Date"
+            }
+          }
+        },
+        "PRODUCT_AUTHORISATION_R": {
+          "fields": {
+            "source_id": {
+              "fieldtype": "String",
+              "columnname": "SOURCE_ID",
+              "columntype": "String"
+            },
+            "root_version_id": {
+              "fieldtype": "String",
+              "columnname": "ROOT_VERSION_ID",
+              "columntype": "String"
+            },
+            "doc.agency_uid.en": {
+              "fieldtype": "String",
+              "columnname": "AGENCY_NAME",
+              "columntype": "String"
+            },
+            "object_id": {
+              "fieldtype": "String",
+              "columnname": "PRODUCT_AUTHORISATION_R_OBJECT_ID",
+              "columntype": "String"
+            },
+            "doc.agency_uid.key": {
+              "fieldtype": "String",
+              "columnname": "AGENCY_UID",
+              "columntype": "String"
+            },
+            "doc.indication_approvals.indication_uid.en": {
+              "fieldtype": "String",
+              "columnname": "INDICATION_NAME",
+              "columntype": "String"
+            },
+            "doc.indication_approvals.indication_uid.key": {
+              "fieldtype": "String",
+              "columnname": "INDICATION_UID",
+              "columntype": "String"
+            },
+            "doc.jurisdiction": {
+              "fieldtype": "String",
+              "columnname": "JURISDICTION",
+              "columntype": "String"
+            },
+            "doc.marketed_product_uid.en": {
+              "fieldtype": "String",
+              "columnname": "MEDICINAL_PRODUCT_NAME",
+              "columntype": "String"
+            },
+            "doc.marketed_product_uid.key": {
+              "fieldtype": "String",
+              "columnname": "MEDICINAL_PRODUCT_UID",
+              "columntype": "String"
+            },
+            "doc.package_registration_id.object_name": {
+              "fieldtype": "String",
+              "columnname": "PACKAGED_PRODUCT_NAME",
+              "columntype": "String"
+            },
+            "doc.package_registration_id.id": {
+              "fieldtype": "String",
+              "columnname": "PACKAGED_PRODUCT_UID",
+              "columntype": "String"
+            },
+            "doc.regulatory_activity_id.object_name": {
+              "fieldtype": "String",
+              "columnname": "REGULATORY_ACTIVITY_NAME",
+              "columntype": "String"
+            },
+            "doc.regulatory_activity_id.id": {
+              "fieldtype": "String",
+              "columnname": "REGULATORY_ACTIVITY_UID",
+              "columntype": "String"
+            },
+            "doc.study_id.object_name": {
+              "fieldtype": "String",
+              "columnname": "STUDY_NUMBER",
+              "columntype": "String"
+            },
+            "doc.study_id.id": {
+              "fieldtype": "String",
+              "columnname": "STUDY_UID",
+              "columntype": "String"
+            },
+            "doc.indication_approvals.indication_status": {
+              "fieldtype": "String",
+              "columnname": "INDICATION_STATUS",
+              "columntype": "String"
+            },
+            "doc.indication_approvals.indication_status_date": {
+              "fieldtype": "Date",
+              "columnname": "INDICATION_STATUS_DATE",
+              "columntype": "Date"
+            },
+            "doc.indication_approvals.special_designation": {
+              "fieldtype": "String",
+              "columnname": "SPECIAL_DESIGNATION",
+              "columntype": "String"
+            },
+            "doc.indication_approvals.special_designation_date": {
+              "fieldtype": "Date",
+              "columnname": "SPECIAL_DESIGNATION_DATE",
+              "columntype": "Date"
+            }
+          }
+        }
+      },
+      "flush":true,
+      "isObjectReqPop": true
+    }
+  }
+}
